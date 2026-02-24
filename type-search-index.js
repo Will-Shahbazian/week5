@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"AlertSystem"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"EmailService"},{"p":"<Unnamed>","l":"NotificationApp"},{"p":"<Unnamed>","l":"NotificationMedium"},{"p":"<Unnamed>","l":"SMSService"},{"p":"<Unnamed>","l":"WhatsAppService"},{"p":"<Unnamed>","l":"WhatsAppServiceTest"}]
