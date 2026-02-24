@@ -18,14 +18,24 @@ How you ensured the AI output matched the existing interface signature perfectly
 
 The WhatsAppService class implemented the NotificationMedium interface from NotificationApp. The interface defined a single method, send(String message), which established both the required method name and parameter signature. The WhatsAppService class was designed to implement this interface rather than introduce new behavior or alter existing structures.
 
-Commands used:
--For the JavaDoc generation: 
-    javadoc *.java
+Project Purpose:
+    -The goal of this assignment was to build on the previous one, while learning good maintenance. We had to extend the system's functionality by adding new components, not by modifying the core engine. The ability to receive alerts via WhatsApp was added, without rewriting the AlertSystem class or changing the existing NotificationMedium interface.
 
--For running the main program from the CLI: 
-    javac *.java
-    java NotificationApp
+Quick Start:
+    -Ensure the system environment has all requirements (mentioned in section below)
+    -Download the code manually/extract the ZIP file, or clone the repository using Git commands.
+    -Open a terminal and navigate to the correct directory location.
+    -For running the program from the CLI, use: 
+        javac NotificationApp.java
+        java NotificationApp
+    -For the JavaDoc generation, use: 
+        javadoc NotificationApp.java
+    -For running the test script, use:
+        javac *.java
+        java WhatsAppServiceTest
 
--For running the test script:
-    javac *.java
-    java WhatsAppServiceTest
+Requirements:
+    -Computer with command line interface
+    -Java/JDK installed on system, PATH System Environment Variable set
+        -Tested on Windows 11, with Visual Studio Code terminal
+
